@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<TextView
+        android:id="@+id/tvChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="नमस्ते! मैं Mayra हूं।"
+        android:textSize="18sp"
+        android:padding="12dp" />
+
+<EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mayra से कुछ पूछें" />
+
+<Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+<Button
+        android:id="@+id/btnMic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎙 बोलकर पूछें" />
+
+</LinearLayout>
